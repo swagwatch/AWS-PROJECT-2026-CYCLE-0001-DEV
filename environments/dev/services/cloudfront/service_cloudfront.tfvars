@@ -1,19 +1,3 @@
-# env.tfvars
-
-#
-# region = "us-east-1"
-
-#
-# environment = "development"
-
-#
-# common_tags = {
-#   environment = "development"
-#   project     = "test-implementation"
-#   owner       = "infrastructure"
-# }
-#--------------------------------------------------------------------------
-
 enabled      = true
 comment      = "Dev CloudFront distribution for content delivery"
 price_class  = "PriceClass_100"
