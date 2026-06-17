@@ -1,19 +1,3 @@
-# env.tfvars
-
-#
-# region = "us-east-1"
-
-#
-# environment = "development"
-
-#
-# common_tags = {
-#   environment = "development"
-#   project     = "test-implementation"
-#   owner       = "infrastructure"
-# }
-#--------------------------------------------------------------------------
-
 queue_name                 = "dev-example-queue"
 fifo_queue                 = false
 kms_master_key_id          = "arn:aws:kms:us-east-1:123456789012:key/12345678-1234-1234-1234-123456789012"
